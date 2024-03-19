@@ -1,0 +1,11 @@
+/* ********header related style******* */
+.head {
+    display: flex;
+    justify-content: center;
+}
+.primary-btn {
+    background-color: chocolate;
+    margin: 20px;
+    padding: 15px;
+    margin-left: 230px;
+}

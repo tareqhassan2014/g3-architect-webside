@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>html table</title>
+        <link rel="stylesheet" href="styles/nav.css" />
+        <style>
+            table {
+                border-collapse: collapse;
+            }
+            td,
+            th {
+                border: 2px solid red;
+                padding: 5px 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="audio-vedio.html">audio</a></li>
+                    <li><a href="blog.html">blog</a></li>
+                    <li>
+                        <a href="table.html">table</a>
+                        <ul class="dropdown">
+                            <li><a href="audio-vedio.html">audio</a></li>
+                            <li><a href="blog.html">blog</a></li>
+                            <li><a href="from.html">form</a></li>
+                            <li><a href="table.html">table</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="from.html">form</a></li>
+                </ul>
+            </nav>
+        </header>
+        <h1>HTML TABLE</h1>
+
+        <table>
+            <caption>
+                Employee salary data
+            </caption>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Name</th>
+                    <th>Company</th>
+                    <th>Salary</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Bill</td>
+                    <td>microsoft</td>
+                    <td>$1000</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Mark</td>
+                    <td>facebook</td>
+                    <td>$1200</td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>Larry</td>
+                    <td>Google</td>
+                    <td>$1300</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4">total Employee:4</td>
+                </tr>
+            </tfoot>
+        </table>
+    </body>
+</html>

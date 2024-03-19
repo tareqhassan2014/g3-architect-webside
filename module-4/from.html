@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>jamal er ma ar pitha gor</title>
+        <link rel="stylesheet" href="styles/nav.css" />
+        <style>
+            label {
+                display: block;
+                margin-bottom: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="audio-vedio.html">audio</a></li>
+                    <li><a href="blog.html">blog</a></li>
+                    <li><a href="from.html">form</a></li>
+                    <li><a href="table.html">table</a></li>
+                </ul>
+            </nav>
+        </header>
+        <h2>please fill up the form</h2>
+        <label for="name"
+            >your name: <input id="name" type="text" placeholder="your name"
+        /></label>
+
+        <label for="emil"
+            >your emil: <input id="emil" type="text" placeholder="your emil"
+        /></label>
+
+        <label for="phone"
+            >phone number:<input
+                id="phone"
+                type="text"
+                placeholder="your phone"
+        /></label>
+        <fieldset>
+            <legend>pick up only one phita</legend>
+            <label for="chitoy"
+                ><input type="radio" name="phita" id="chitoy" />chitoy</label
+            >
+            <label for="vapa"
+                ><input type="radio" name="phita" id="vapa" />vapa</label
+            >
+            <label for="puri"
+                ><input type="radio" name="phita" id="chitoy" />puri</label
+            >
+        </fieldset>
+
+        <fieldset>
+            <legend>pick up one or more vorta</legend>
+            <label for="sorisa"
+                ><input type="checkbox" name="vorta" id="sorisa" />sorisa</label
+            >
+            <label for="potato"
+                ><input type="checkbox" name="vorta" id="potato" />potato</label
+            >
+            <label for="banana"
+                ><input type="checkbox" name="vorta" id="banana" />banana</label
+            >
+        </fieldset>
+        <fieldset>
+            <legend>special instraction</legend>
+            <textarea name="" id="" cols="10" rows="5"></textarea>
+        </fieldset>
+        <button>reset</button>
+        <input type="submit" value="submit" />
+    </body>
+</html>

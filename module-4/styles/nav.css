@@ -1,0 +1,25 @@
+nav > ul {
+    display: flex;
+}
+li {
+    list-style: none;
+    margin-right: 5px;
+}
+li a {
+    text-decoration: none;
+    color: black;
+}
+li:hover {
+    background-color: brown;
+}
+
+/* *********nested menu style*********** */
+
+ul.dropdown {
+    display: none;
+    position: absolute;
+    background-color: aqua;
+}
+ul:hover .dropdown {
+    display: block;
+}

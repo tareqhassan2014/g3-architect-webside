@@ -1,0 +1,21 @@
+.blog {
+    display: flex;
+    flex-direction: column;
+    border: 4px solid rebeccapurple;
+}
+.item1 {
+    display: flex;
+}
+
+.item2 {
+    width: 50%;
+}
+
+@media screen and(max-with:576px) {
+    .blog {
+        flex-direction: column;
+    }
+    .item1 {
+        flex-direction: column;
+    }
+}

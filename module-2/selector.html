@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>mixed selector</title>
+        <style>
+            * {
+                margin: 20px;
+            }
+            #element {
+                background-color: blue;
+                font-size: 26px;
+            }
+            .sentence {
+                color: brown;
+                text-align: center;
+            }
+            .bold {
+                font-weight: 900;
+            }
+
+            input[type="password"] {
+                color: brown;
+            }
+
+            .color {
+                font-size: larger;
+            }
+
+            .blog {
+                background-color: blanchedalmond;
+            }
+        </style>
+    </head>
+    <body>
+        <p class="sentence">My first line css page</p>
+        <p>My second line css page</p>
+        <p>My third line css page</p>
+        <p id="element">My fourth line css page</p>
+        <p>My fifth line css page</p>
+        <p>My sixth line <span class="color">css page</span></p>
+        <p>My seventh line css page</p>
+        <p class="sentence bold">My eighth line css page</p>
+
+        <ol>
+            <li>oil</li>
+            <li class="sentence">rice</li>
+            <li>vegetable</li>
+        </ol>
+
+        <div class="blog">
+            <h3>My blog</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
+                architecto temporibus vel! Provident ullam dolorem nemo, dolor
+                saepe sit a excepturi rerum maxime ipsa ad facilis veniam eos
+                commodi quibusdam?
+            </p>
+        </div>
+
+        <form action="">
+            <label for="">username:</label>
+            <input type="email" name="" placeholder="My emil" id="" />
+            <label for="">password:</label>
+            <input type="password" name="" placeholder="My password" />
+        </form>
+    </body>
+</html>

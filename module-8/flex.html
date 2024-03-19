@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Responsive flex</title>
+        <style>
+            .container {
+                display: flex;
+                gap: 20px;
+            }
+            .box {
+                background-color: blue;
+                border-radius: 10px;
+                padding: 20px;
+            }
+            .box-title {
+                display: flex;
+                gap: 10px;
+                flex-wrap: wrap;
+            }
+            .item {
+                border: 3px solid aqua;
+                height: 100px;
+                width: 100px;
+                background: rebeccapurple;
+            }
+            @media screen and (max-width: 576px) {
+                .container {
+                    flex-direction: column-reverse;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Flexible flex</h1>
+        <div class="container">
+            <div class="box">
+                <h3>first box</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Natus laudantium non optio aliquam praesentium cumque.
+                    Minus, praesentium recusandae voluptatem id aspernatur
+                    possimus harum, perspiciatis quis in dolorum quidem a
+                    veniam! Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit. Natus laudantium non optio aliquam praesentium cumque.
+                    Minus, praesentium recusandae voluptatem id aspernatur
+                    possimus harum, perspiciatis quis in dolorum quidem a
+                    veniamLorem ipsum dolor sit amet, consectetur adipisicing
+                    elit. Natus laudantium non optio aliquam praesentium cumque.
+                    Minus, praesentium recusandae voluptatem id aspernatur
+                    possimus harum, perspiciatis quis in dolorum quidem a
+                    veniam!
+                </p>
+            </div>
+            <div class="box">
+                <h3>second box</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Natus laudantium non optio aliquam praesentium cumque.
+                    Minus, praesentium recusandae voluptatem id aspernatur
+                    possimus harum, perspiciatis quis in dolorum quidem a
+                    veniam! Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit. Natus laudantium non optio aliquam praesentium cumque.
+                    Minus, praesentium recusandae voluptatem id aspernatur
+                    possimus harum, perspiciatis quis in dolorum quidem a
+                    veniamLorem ipsum dolor sit amet, consectetur adipisicing
+                    elit. Natus laudantium non optio aliquam praesentium cumque.
+                    Minus, praesentium recusandae voluptatem id aspernatur
+                    possimus harum, perspiciatis quis in dolorum quidem a
+                    veniam!
+                </p>
+            </div>
+        </div>
+
+        <div class="box-title">
+            <div class="item">item-1</div>
+            <div class="item">item-2</div>
+            <div class="item">item-3</div>
+            <div class="item">item-4</div>
+            <div class="item">item-5</div>
+            <div class="item">item-6</div>
+            <div class="item">item-7</div>
+            <div class="item">item-8</div>
+            <div class="item">item-9</div>
+            <div class="item">item-10</div>
+        </div>
+    </body>
+</html>

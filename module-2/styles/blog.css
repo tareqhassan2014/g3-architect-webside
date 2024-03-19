@@ -1,0 +1,42 @@
+h3 {
+    font-size: 20px;
+    color: red;
+    text-decoration: underline;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.blog {
+    border: 10px solid aqua;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 10px 10px blue;
+}
+.second {
+    /* display: none; */
+    /* visibility: hidden; */
+}
+
+.incident {
+    border: 5px solid green;
+    margin: 10px;
+    /* display: block; */
+    display: inline-block;
+}
+
+.header {
+    height: 700px;
+    /* background-color: blueviolet; */
+    background-image: url("flower\ \(1\).png");
+
+    /* background-repeat: no-repeat; */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* background-size: cover; */
+    /* background-size: contain; */
+    background-size: 200px;
+}
+.meta {
+    border: 5px solid red;
+    height: 100px;
+    display: inline-block;
+}

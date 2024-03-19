@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>flex box</title>
+        <style>
+            .container {
+                border: 5px solid salmon;
+                display: flex;
+
+                /* ********varticaly line bosba*****/
+
+                /* justify-content: center; */
+                /* justify-content: flex-end; */
+                /* justify-content: flex-start; */
+                /* justify-content: space-around; */
+                /* justify-content: space-between; */
+                /* justify-content: space-evenly; */
+                height: 250px;
+
+                /* ********horaijontal line bosba*****/
+                /* align-items: center;
+                align-items: flex-end;
+                align-items: flex-start; */
+
+                /* flex-direction: column; */
+                /* flex-direction: column-reverse; */
+                /* flex-direction: row; */
+                /* flex-direction: row-reverse; */
+
+                flex-wrap: wrap;
+            }
+            .box {
+                border: 2px dotted aqua;
+                height: 100px;
+                width: 100px;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>My flexbox layout</h2>
+        <div class="container">
+            <div class="box">box-1</div>
+            <div class="box">box-2</div>
+            <div class="box">box-3</div>
+            <div class="box">box-4</div>
+            <div class="box">box-5</div>
+            <div class="box">box-6</div>
+            <div class="box">box-7</div>
+            <div class="box">box-8</div>
+            <div class="box">box-9</div>
+            <div class="box">box-10</div>
+            <div class="box">box-11</div>
+            <div class="box">box-12</div>
+        </div>
+    </body>
+</html>

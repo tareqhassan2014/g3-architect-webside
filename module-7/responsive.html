@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>responsive website</title>
+        <style>
+            body {
+                border: 2px solid blue;
+                /* max-width: 1140px; */
+                margin: 0 auto;
+            }
+            .image-container {
+                display: flex;
+            }
+            .image-container img {
+                width: 100%;
+            }
+            .image-container div {
+                width: 50%;
+            }
+            @media screen and (max-width: 576px) {
+                .image-container {
+                    flex-direction: column-reverse;
+                }
+                .image-container div {
+                    width: 100%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Responsive Website</h1>
+        <header>
+            <ol>
+                <li>Viewport meta tag</li>
+                <li>CSS related style</li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ol>
+        </header>
+        <main>
+            <div class="image-container">
+                <div><img src="images/food.jpg" alt="" /></div>
+                <div><img src="images/BlogSeries2.jpg" alt="" /></div>
+            </div>
+        </main>
+    </body>
+</html>

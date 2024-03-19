@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>pseudo</title>
+        <style>
+            h1:hover {
+                color: blue;
+            }
+            input:focus {
+                color: aqua;
+                padding: 5px;
+                border: 3px solid rebeccapurple;
+            }
+            a:visited {
+                color: brown;
+            }
+            /* li:last-child {
+                border: 2px solid aqua;
+            } */
+            /* li:first-child {
+                color: blue;
+            } */
+            /* even number style korar jonno */
+            /* li:nth-child(2n) {
+                color: brown;
+            } */
+
+            /* even number style korar jonno */
+            li:nth-child(2n + 1) {
+                color: brown;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- hover related style -->
+        <h1>My heading</h1>
+
+        <!-- focus related style -->
+        <input type="text" name="" id="" />
+        <input type="text" name="" id="" />
+
+        <br />
+        <!-- visited or non-visited  related style -->
+        <a href="https://www.google.com/">google</a>
+        <a
+            href="https://www.google.com/search?q=mountain+images+free+download&oq=m&gs_lcrp=EgZjaHJvbWUqDggCEEUYJxg7GIAEGIoFMgYIABBFGDwyBggBEEUYOTIOCAIQRRgnGDsYgAQYigUyDggDEEUYJxg7GIAEGIoFMgYIBBBFGDwyBggFEEUYPDIGCAYQRRg8MgYIBxBFGDzSAQg2OTcxajBqOagCALACAA&sourceid=chrome&ie=UTF-8"
+            >mountain</a
+        >
+        <a
+            href="https://www.google.com/search?gs_ssp=eJzj4tDP1TcwKc4yNmD04spNTElMTyxOTiwCAEdcBts&q=madagascar&oq=mada&gs_lcrp=EgZjaHJvbWUqCggEEC4YsQMYgAQyBggAEEUYOTIQCAEQLhiDARjUAhixAxiABDIKCAIQLhixAxiABDINCAMQABiDARixAxiABDIKCAQQLhixAxiABDIKCAUQABixAxiABDIKCAYQABixAxiABDIHCAcQLhiABDINCAgQABiDARixAxiABDIHCAkQABiPAtIBCDkyOTBqMGo5qAIAsAIA&sourceid=chrome&ie=UTF-8"
+            >madagascar</a
+        >
+
+        <!-- list related style -->
+        <ul>
+            <li>abir</li>
+            <li>kabir</li>
+            <li>nabir</li>
+            <li>sobir</li>
+            <li>kobir</li>
+        </ul>
+    </body>
+</html>
