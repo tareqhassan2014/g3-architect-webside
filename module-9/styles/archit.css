@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+    font-family: "lato", sans-serif;
+    font-family: "Open Sans", sans-serif;
+    font-family: "Work Sans", sans-serif;
+}
+
+.btn-primary {
+    background-color: orange;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+/* header style */
+header {
+    background-color: gray;
+    /* background-color: rgba(255, 144, 14, 0, 10); */
+    padding: 30px 240px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav > ul {
+    display: flex;
+}
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-size: 1em;
+    font-weight: 500px;
+}
+nav li a {
+    text-decoration: none;
+    color: #424242;
+}
+.nav-title {
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+}
+.banner-contant {
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner-title {
+    font-size: 64px;
+    font-weight: 700;
+    color: #131313;
+}
+.banner-description {
+    color: #131313;
+}
