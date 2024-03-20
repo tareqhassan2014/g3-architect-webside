@@ -9,7 +9,11 @@
 .btn-primary {
     background-color: orange;
     border-radius: 10px;
-    padding: 5px;
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    border: 0;
 }
 
 /* header style */
@@ -54,4 +58,29 @@ nav li a {
 }
 .banner-description {
     color: #131313;
+}
+
+.banner img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* responsive media queries for small device*/
+@media screen and (max-width: 576px) {
+    header {
+        padding: 10px;
+    }
+    nav {
+        flex-direction: column;
+    }
+}
+
+/* responsive media queries for medium device*/
+@media screen and (min-width: 576px) and(max-width:960px) {
+    header {
+        padding: 30px;
+    }
+    nav {
+        flex-direction: column;
+    }
 }
