@@ -127,6 +127,23 @@ main {
     margin-top: 5px;
 }
 
+/* sponsors style */
+.sponsors {
+    text-align: center;
+}
+
+.sponsors-image-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    align-items: center;
+    gap: 20px;
+}
+
+.sponsors-image-container img {
+    width: 165px;
+}
+
 /* responsive media queries for small device*/
 @media screen and (max-width: 576px) {
     header {
@@ -134,7 +151,8 @@ main {
     }
     nav,
     .section-container,
-    .facts-card-container {
+    .facts-card-container,
+    .sponsors-image-container {
         flex-direction: column;
     }
 
