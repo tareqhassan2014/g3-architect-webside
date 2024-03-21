@@ -16,6 +16,10 @@
     border: 0;
 }
 
+.text-light-gray {
+    color: #727272;
+}
+
 /* header style */
 header {
     background-color: gray;
@@ -56,9 +60,6 @@ nav li a {
     font-weight: 700;
     color: #131313;
 }
-.banner-description {
-    color: #131313;
-}
 
 .banner img {
     width: 100%;
@@ -68,7 +69,7 @@ nav li a {
 /* main style */
 main {
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 70px auto;
 }
 
 .section-container {
@@ -90,7 +91,6 @@ main {
 }
 
 .section-tittle .quick-list {
-    color: #727272;
     font-weight: 500;
 }
 
@@ -104,17 +104,23 @@ main {
     header {
         padding: 10px;
     }
-    nav {
+    nav,
+    .section-container {
         flex-direction: column;
+    }
+
+    .image-contant {
+        grid-template-columns: 1fr;
     }
 }
 
 /* responsive media queries for medium device*/
-@media screen and (min-width: 576px) and(max-width:960px) {
+@media screen and (min-width: 576px) and (max-width: 960px) {
     header {
         padding: 30px;
     }
-    nav {
+    nav,
+    .section-container {
         flex-direction: column;
     }
 }
